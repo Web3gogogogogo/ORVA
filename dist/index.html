@@ -1,44 +1,44 @@
 <!doctype html>
-<html lang="zh-CN">
+<html dir="ltr" lang="zh-Hant">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#07140f" />
-    <meta name="description" content="ORVA Protocol 连接天然气采、输、储、贸实体业务与可验证的链上权益。了解 ORVA 的 RWA 映射、协议架构、代币机制与治理规划。" />
-    <meta property="og:title" content="ORVA Protocol — Real Energy, Verifiable Rights" />
-    <meta property="og:description" content="以真实能源经营现金流为基础的 RWA-DeFi 协议规划。" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/orva-logo.png" />
-    <title>ORVA Protocol — Real Energy, Verifiable Rights</title>
-    <link rel="icon" type="image/png" href="assets/orva-logo.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="main.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">跳转到主要内容</a>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07140f">
+    <meta data-i18n-content="home.001" name="description" content="ORVA Protocol 連接天然氣採、輸、儲、貿實體業務與可驗證的鏈上權益。瞭解 ORVA 的 RWA 映射、協議架構、代幣機制與治理規劃。">
+    <meta data-i18n-content="home.002" property="og:title" content="ORVA Protocol — 真實能源，可驗證的權益">
+    <meta data-i18n-content="home.003" property="og:description" content="以真實能源經營現金流為基礎的 RWA-DeFi 協議規劃。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/orva-logo.png">
+    <title data-i18n="home.004">ORVA Protocol — 真實能源，可驗證的權益</title>
+    <link rel="icon" type="image/png" href="/assets/orva-logo.png">
+    <link rel="stylesheet" href="/styles.css">
+
+  <link href="/i18n.css" rel="stylesheet"><script type="application/json" id="initial-ui">{"ui.language":"語言","ui.openMenu":"打開導航菜單","ui.closeMenu":"關閉導航菜單","ui.whitepaper":"白皮書","ui.home":"首頁","ui.backHome":"返回首頁","ui.top":"返回頂部","ui.toc":"章節導航","ui.progress":"閱讀進度","ui.download":"下載原版 PDF（簡體中文）","ui.title":"ORVA Protocol 白皮書","ui.subtitle":"由真實能源經營現金流驅動的 RWA-DeFi 協議","ui.version":"版本 V1.0","ui.source":"全文網頁版 · 與原版 PDF 對照閱讀","ui.edition":"本網頁為 ORVA 白皮書 V1.0 的全文及翻譯版本。項目數據、規劃及聲明沿用原文，請結合原版 PDF 閱讀。","ui.tableScroll":"表格可橫向滾動","ui.readPaper":"閱讀白皮書","ui.original":"原版 PDF","ui.loadError":"此語言暫時無法加載，請重試。","ui.retry":"重試","ui.section":"章節","ui.figure":"圖示","ui.paperNav":"白皮書導航","ui.closeToc":"收起目錄"}</script><script defer src="/i18n.js"></script><script defer src="/main.js"></script><noscript><style>.reveal{opacity:1;transform:none}</style></noscript></head>
+  <body><div class="language-error" role="alert" hidden><span data-i18n="ui.loadError">此語言暫時無法加載，請重試。</span> <button type="button" id="language-retry" data-i18n="ui.retry">重試</button></div>
+    <a class="skip-link" href="#main"><orva-text data-i18n="home.005">跳轉到主要內容</orva-text></a>
 
     <header class="site-header">
       <div class="container nav-shell">
-        <a class="brand" href="#top" aria-label="ORVA Protocol 首页">
-          <img src="assets/orva-logo.png" alt="" width="42" height="42" />
+        <a data-i18n-aria-label="home.006" class="brand" href="#top" aria-label="ORVA Protocol 首頁">
+          <img src="/assets/orva-logo.png" alt="" width="42" height="42">
           <span class="brand-wordmark">ORVA<span>PROTOCOL</span></span>
         </a>
 
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="打开导航菜单">
+        <button data-i18n-aria-label="home.007" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="打開導航菜單">
           <span></span><span></span>
         </button>
 
-        <nav class="nav-links" id="primary-navigation" aria-label="主要导航">
-          <a href="#industry">产业底座</a>
-          <a href="#assets">RWA 权益</a>
-          <a href="#economics">代币机制</a>
-          <a href="#architecture">技术架构</a>
-          <a href="#governance">治理路线</a>
-          <a class="nav-paper" href="assets/orva-protocol-whitepaper-v1.pdf" download="ORVA-Protocol-Whitepaper-v1.pdf">
-            白皮书 <span aria-hidden="true">↗</span>
+        <nav data-i18n-aria-label="home.008" class="nav-links" id="primary-navigation" aria-label="主要導航">
+          <a href="#industry"><orva-text data-i18n="home.009">產業底座</orva-text></a>
+          <a href="#assets"><orva-text data-i18n="home.010">RWA 權益</orva-text></a>
+          <a href="#economics"><orva-text data-i18n="home.011">代幣機制</orva-text></a>
+          <a href="#architecture"><orva-text data-i18n="home.012">技術架構</orva-text></a>
+          <a href="#governance"><orva-text data-i18n="home.013">治理路線</orva-text></a>
+          <a class="nav-paper" href="/whitepaper/"><orva-text data-i18n="home.014">
+            白皮書 </orva-text><span aria-hidden="true">↗</span>
           </a>
         </nav>
-      </div>
+      <label class="language-control"><span class="language-icon" aria-hidden="true">◎</span><span class="sr-only" data-i18n="ui.language">語言</span><select id="site-language" aria-label="語言" data-i18n-aria-label="ui.language"><option value="zh-Hant" lang="zh-Hant" selected>繁體中文</option><option value="en" lang="en">English</option><option value="ko" lang="ko">한국어</option><option value="ja" lang="ja">日本語</option><option value="vi" lang="vi">Tiếng Việt</option><option value="ur" lang="ur">اردو</option></select></label></div>
     </header>
 
     <main id="main">
@@ -46,36 +46,36 @@
         <div class="hero-grid-glow" aria-hidden="true"></div>
         <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <p class="eyebrow"><span class="eyebrow-mark"></span> REAL-WORLD ENERGY / VERIFIABLE ON-CHAIN RIGHTS</p>
-            <h1 id="hero-title">让真实能源经营<br />连接<span>可验证的链上权益</span></h1>
-            <p class="hero-lede">ORVA Protocol 以天然气采、输、储、贸业务为产业底座，把经过核验的经营数据与合同现金流映射为标准化 RWA 权益，并以 ORVA 连接质押激励与协议治理。</p>
+            <p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.015"> 真實能源 / 可驗證的鏈上權益</orva-text></p>
+            <h1 id="hero-title"><orva-text data-i18n="home.016">讓真實能源經營</orva-text><br><orva-text data-i18n="home.017">連接</orva-text><span><orva-text data-i18n="home.018">可驗證的鏈上權益</orva-text></span></h1>
+            <p class="hero-lede"><orva-text data-i18n="home.019">ORVA Protocol 以天然氣採、輸、儲、貿業務為產業底座，把經過核驗的經營數據與合同現金流映射為標準化 RWA 權益，並以 ORVA 連接質押激勵與協議治理。</orva-text></p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#industry">探索协议 <span aria-hidden="true">↘</span></a>
-              <a class="button button-secondary" href="assets/orva-protocol-whitepaper-v1.pdf" download="ORVA-Protocol-Whitepaper-v1.pdf">阅读白皮书 <span aria-hidden="true">↗</span></a>
+              <a class="button button-primary" href="#industry"><orva-text data-i18n="home.020">探索協議 </orva-text><span aria-hidden="true">↘</span></a>
+              <a class="button button-secondary" href="/whitepaper/"><orva-text data-i18n="home.021">閱讀白皮書 </orva-text><span aria-hidden="true">↗</span></a>
             </div>
-            <div class="hero-tags" aria-label="协议关键词">
-              <span>ENERGY RWA</span><span>ORVA</span><span>DEFI INFRASTRUCTURE</span>
+            <div data-i18n-aria-label="home.022" class="hero-tags" aria-label="協議關鍵詞">
+              <span><orva-text data-i18n="home.023">能源 RWA</orva-text></span><span><orva-text data-i18n="home.024">ORVA</orva-text></span><span><orva-text data-i18n="home.025">DeFi 基礎設施</orva-text></span>
             </div>
           </div>
 
-          <div class="hero-visual reveal" aria-label="ORVA 开放六边形与能源流动标志">
+          <div data-i18n-aria-label="home.026" class="hero-visual reveal" aria-label="ORVA 開放六邊形與能源流動標誌">
             <div class="visual-grid" aria-hidden="true"></div>
             <div class="visual-orbit orbit-one" aria-hidden="true"></div>
             <div class="visual-orbit orbit-two" aria-hidden="true"></div>
             <div class="visual-axis axis-horizontal" aria-hidden="true"></div>
             <div class="visual-axis axis-vertical" aria-hidden="true"></div>
-            <div class="visual-index index-top"><span>01</span> REAL ASSET</div>
-            <div class="visual-index index-bottom"><span>02</span> VERIFIED FLOW</div>
-            <div class="visual-tag tag-left"><span class="tag-dot"></span> OFF-CHAIN<br /><b>ENERGY OPERATIONS</b></div>
-            <div class="visual-tag tag-right"><span class="tag-dot"></span> ON-CHAIN<br /><b>ECONOMIC RIGHTS</b></div>
+            <div class="visual-index index-top"><span>01</span><orva-text data-i18n="home.027"> 真實資產</orva-text></div>
+            <div class="visual-index index-bottom"><span>02</span><orva-text data-i18n="home.028"> 可驗證的流轉</orva-text></div>
+            <div class="visual-tag tag-left"><span class="tag-dot"></span><orva-text data-i18n="home.029"> 鏈下</orva-text><br><b><orva-text data-i18n="home.030">能源經營</orva-text></b></div>
+            <div class="visual-tag tag-right"><span class="tag-dot"></span><orva-text data-i18n="home.031"> 鏈上</orva-text><br><b><orva-text data-i18n="home.032">經濟權益</orva-text></b></div>
             <div class="logo-halo" aria-hidden="true"></div>
-            <img class="hero-logo" src="assets/orva-logo.png" alt="" width="600" height="600" />
-            <div class="visual-caption"><span class="caption-line"></span><span>FROM ENERGY TO VERIFIED VALUE</span></div>
+            <img class="hero-logo" src="/assets/orva-logo.png" alt="" width="600" height="600">
+            <div class="visual-caption"><span class="caption-line"></span><span><orva-text data-i18n="home.033">從能源到可驗證的價值</orva-text></span></div>
           </div>
         </div>
         <div class="container hero-bottom">
-          <p><span class="status-dot"></span> REAL INDUSTRY, BUILT FOR VERIFIABLE PARTICIPATION</p>
-          <a href="#industry" aria-label="向下浏览">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a>
+          <p><span class="status-dot"></span><orva-text data-i18n="home.034"> 真實產業，支持可驗證的參與</orva-text></p>
+          <a data-i18n-aria-label="home.036" href="#industry" aria-label="向下瀏覽"><orva-text data-i18n="home.035">向下探索 </orva-text><span aria-hidden="true">↓</span></a>
         </div>
       </section>
 
@@ -83,57 +83,57 @@
         <div class="container">
           <div class="section-heading split-heading reveal">
             <div>
-              <p class="eyebrow"><span class="eyebrow-mark"></span> INDUSTRIAL FOUNDATION</p>
-              <h2 id="industry-title">能源实体，<br /><span class="text-accent">是协议价值的起点。</span></h2>
+              <p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.037"> 產業基礎</orva-text></p>
+              <h2 id="industry-title"><orva-text data-i18n="home.038">能源實體，</orva-text><br><span class="text-accent"><orva-text data-i18n="home.039">是協議價值的起點。</orva-text></span></h2>
             </div>
-            <p class="section-intro">白皮书以四川开江县天然气采输储贸一体化项目作为产业基础设想，覆盖气源、集输、储气调峰与贸易结算。线下业务形成合同、计量与回款记录，链上协议负责权益登记和规则协同。</p>
+            <p class="section-intro"><orva-text data-i18n="home.040">白皮書以四川開江縣天然氣採輸儲貿一體化項目作為產業基礎設想，覆蓋氣源、集輸、儲氣調峰與貿易結算。線下業務形成合同、計量與回款記錄，鏈上協議負責權益登記和規則協同。</orva-text></p>
           </div>
 
-          <div class="metrics-panel reveal" aria-label="白皮书规划的项目参数">
-            <div class="metrics-topline"><span>PROJECT PARAMETERS</span><span>WHITEPAPER PLAN / V1.0</span></div>
+          <div data-i18n-aria-label="home.041" class="metrics-panel reveal" aria-label="白皮書規劃的項目參數">
+            <div class="metrics-topline"><span><orva-text data-i18n="home.042">項目參數</orva-text></span><span><orva-text data-i18n="home.043">白皮書規劃 / V1.0</orva-text></span></div>
             <div class="metrics-grid">
-              <div class="metric"><span class="metric-value">约 <b>10</b> 亿元</span><span class="metric-label">项目总投资规划</span></div>
-              <div class="metric"><span class="metric-value"><b>100</b> 万 m³<span class="metric-unit">/ 日</span></span><span class="metric-label">集气站日处理规模</span></div>
-              <div class="metric"><span class="metric-value"><b>3</b> 亿 m³</span><span class="metric-label">储气库规划库容</span></div>
-              <div class="metric"><span class="metric-value"><b>50</b> km</span><span class="metric-label">集输管道规划长度</span></div>
+              <div class="metric"><span class="metric-value"><b><orva-text data-i18n="metric.investment">約 10 億元</orva-text></b></span><span class="metric-label"><orva-text data-i18n="home.046">項目總投資規劃</orva-text></span></div>
+              <div class="metric"><span class="metric-value"><b><orva-text data-i18n="metric.processing">100 萬 m³ / 日</orva-text></b></span><span class="metric-label"><orva-text data-i18n="home.049">集氣站日處理規模</orva-text></span></div>
+              <div class="metric"><span class="metric-value"><b><orva-text data-i18n="metric.storage">3 億 m³</orva-text></b></span><span class="metric-label"><orva-text data-i18n="home.051">儲氣庫規劃庫容</orva-text></span></div>
+              <div class="metric"><span class="metric-value"><b><orva-text data-i18n="metric.pipeline">50 km</orva-text></b></span><span class="metric-label"><orva-text data-i18n="home.053">集輸管道規劃長度</orva-text></span></div>
             </div>
-            <p class="metrics-note">以上均为白皮书所列规划参数，不代表已建成、已投产或已实现的经营结果。</p>
+            <p class="metrics-note"><orva-text data-i18n="home.054">以上均為白皮書所列規劃參數，不代表已建成、已投產或已實現的經營結果。</orva-text></p>
           </div>
 
           <div class="flow-heading reveal">
-            <div><p class="eyebrow">PHYSICAL VALUE CHAIN</p><h3>一条能源链路，四个经营环节</h3></div>
-            <p>从分散气源到工业用户，形成可记录、可核验的业务链。</p>
+            <div><p class="eyebrow"><orva-text data-i18n="home.055">實體價值鏈</orva-text></p><h3><orva-text data-i18n="home.056">一條能源鏈路，四個經營環節</orva-text></h3></div>
+            <p><orva-text data-i18n="home.057">從分散氣源到工業用戶，形成可記錄、可核驗的業務鏈。</orva-text></p>
           </div>
-          <div class="physical-flow reveal" aria-label="天然气采输储贸流程">
+          <div data-i18n-aria-label="home.058" class="physical-flow reveal" aria-label="天然氣採輸儲貿流程">
             <article class="flow-step">
-              <span class="step-number">01 / UPSTREAM</span>
+              <span class="step-number"><orva-text data-i18n="home.059">01 / 氣源採集</orva-text></span>
               <div class="step-icon icon-well" aria-hidden="true"><span></span><i></i></div>
-              <h4>气源采集</h4><p>整合周边气源，记录产气与交接计量。</p>
+              <h4><orva-text data-i18n="home.060">氣源採集</orva-text></h4><p><orva-text data-i18n="home.061">整合周邊氣源，記錄產氣與交接計量。</orva-text></p>
             </article>
             <span class="flow-connector" aria-hidden="true"><i></i></span>
             <article class="flow-step">
-              <span class="step-number">02 / GATHERING</span>
+              <span class="step-number"><orva-text data-i18n="home.062">02 / 集輸處理</orva-text></span>
               <div class="step-icon icon-processing" aria-hidden="true"><span></span><i></i><b></b></div>
-              <h4>集输处理</h4><p>净化、压缩并通过管网完成输送服务。</p>
+              <h4><orva-text data-i18n="home.063">集輸處理</orva-text></h4><p><orva-text data-i18n="home.064">淨化、壓縮並通過管網完成輸送服務。</orva-text></p>
             </article>
             <span class="flow-connector" aria-hidden="true"><i></i></span>
             <article class="flow-step">
-              <span class="step-number">03 / STORAGE</span>
+              <span class="step-number"><orva-text data-i18n="home.065">03 / 儲氣調峰</orva-text></span>
               <div class="step-icon icon-storage" aria-hidden="true"><span></span><i></i></div>
-              <h4>储气调峰</h4><p>按季节性需求组织注采与库容使用。</p>
+              <h4><orva-text data-i18n="home.066">儲氣調峰</orva-text></h4><p><orva-text data-i18n="home.067">按季節性需求組織注採與庫容使用。</orva-text></p>
             </article>
             <span class="flow-connector" aria-hidden="true"><i></i></span>
             <article class="flow-step">
-              <span class="step-number">04 / TRADE</span>
+              <span class="step-number"><orva-text data-i18n="home.068">04 / 貿易結算</orva-text></span>
               <div class="step-icon icon-trade" aria-hidden="true"><span></span><i></i><b></b></div>
-              <h4>贸易结算</h4><p>以合同、计量报表与回款凭证核验业务。</p>
+              <h4><orva-text data-i18n="home.069">貿易結算</orva-text></h4><p><orva-text data-i18n="home.070">以合同、計量報表與回款憑證核驗業務。</orva-text></p>
             </article>
           </div>
 
           <div class="proof-strip reveal">
-            <div class="proof-label"><span class="proof-icon" aria-hidden="true">◉</span><span>VERIFIABLE<br />BUSINESS DATA</span></div>
-            <div class="proof-items"><span>IoT 计量</span><i>+</i><span>商业合同</span><i>+</i><span>库存记录</span><i>+</i><span>回款凭证</span></div>
-            <div class="proof-result"><span class="signal-pulse"></span> ORACLE / PoR <span aria-hidden="true">→</span> ON-CHAIN</div>
+            <div class="proof-label"><span class="proof-icon" aria-hidden="true">◉</span><span><orva-text data-i18n="home.071">可核驗的</orva-text><br><orva-text data-i18n="home.072">業務數據</orva-text></span></div>
+            <div class="proof-items"><span><orva-text data-i18n="home.073">IoT 計量</orva-text></span><i>+</i><span><orva-text data-i18n="home.074">商業合同</orva-text></span><i>+</i><span><orva-text data-i18n="home.075">庫存記錄</orva-text></span><i>+</i><span><orva-text data-i18n="home.076">回款憑證</orva-text></span></div>
+            <div class="proof-result"><span class="signal-pulse"></span><orva-text data-i18n="home.077"> 預言機 / PoR </orva-text><span aria-hidden="true">→</span><orva-text data-i18n="home.078"> 鏈上</orva-text></div>
           </div>
         </div>
       </section>
@@ -141,76 +141,76 @@
       <section class="section assets-section" id="assets" aria-labelledby="assets-title">
         <div class="container">
           <div class="section-heading centered-heading reveal">
-            <p class="eyebrow"><span class="eyebrow-mark"></span> REAL-WORLD ASSET LAYER</p>
-            <h2 id="assets-title">四类能源权益，<span class="text-accent">映射实体经营。</span></h2>
-            <p>每笔 RWA 需有线下商业合同、经预言机核验的计量数据，并通过产业委员会确认后才进入发行流程。</p>
-            <span class="section-badge">ERC-1155 多资产标准 · 白皮书规划</span>
+            <p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.079"> 現實世界資產層</orva-text></p>
+            <h2 id="assets-title"><orva-text data-i18n="home.080">四類能源權益，</orva-text><span class="text-accent"><orva-text data-i18n="home.081">映射實體經營。</orva-text></span></h2>
+            <p><orva-text data-i18n="home.082">每筆 RWA 需有線下商業合同、經預言機核驗的計量數據，並通過產業委員會確認後才進入發行流程。</orva-text></p>
+            <span class="section-badge"><orva-text data-i18n="home.083">ERC-1155 多資產標準 · 白皮書規劃</orva-text></span>
           </div>
 
           <div class="asset-grid">
             <article class="asset-card reveal">
-              <div class="asset-card-top"><span class="asset-glyph glyph-source" aria-hidden="true">↗</span><span class="asset-index">RWA / 01</span></div>
-              <p class="asset-kicker">GAS SOURCE</p><h3>气源收益权</h3>
-              <p>映射周边气井产气销售的净收益份额，并按对应收益周期记录。</p>
-              <div class="asset-foot"><span>产气计量</span><span>销售净收益</span></div>
+              <div class="asset-card-top"><span class="asset-glyph glyph-source" aria-hidden="true">↗</span><span class="asset-index"><orva-text data-i18n="home.084">RWA / 01</orva-text></span></div>
+              <p class="asset-kicker"><orva-text data-i18n="home.085">氣源</orva-text></p><h3><orva-text data-i18n="home.086">氣源收益權</orva-text></h3>
+              <p><orva-text data-i18n="home.087">映射周邊氣井產氣銷售的淨收益份額，並按對應收益週期記錄。</orva-text></p>
+              <div class="asset-foot"><span><orva-text data-i18n="home.088">產氣計量</orva-text></span><span><orva-text data-i18n="home.089">銷售淨收益</orva-text></span></div>
             </article>
             <article class="asset-card reveal">
-              <div class="asset-card-top"><span class="asset-glyph glyph-pipeline" aria-hidden="true">⌁</span><span class="asset-index">RWA / 02</span></div>
-              <p class="asset-kicker">GATHERING SERVICE</p><h3>集输设施服务收益权</h3>
-              <p>映射集气、处理与输送设施提供服务所形成的结算收益。</p>
-              <div class="asset-foot"><span>设施服务</span><span>结算周期</span></div>
+              <div class="asset-card-top"><span class="asset-glyph glyph-pipeline" aria-hidden="true">⌁</span><span class="asset-index"><orva-text data-i18n="home.090">RWA / 02</orva-text></span></div>
+              <p class="asset-kicker"><orva-text data-i18n="home.091">集輸服務</orva-text></p><h3><orva-text data-i18n="home.092">集輸設施服務收益權</orva-text></h3>
+              <p><orva-text data-i18n="home.093">映射集氣、處理與輸送設施提供服務所形成的結算收益。</orva-text></p>
+              <div class="asset-foot"><span><orva-text data-i18n="home.094">設施服務</orva-text></span><span><orva-text data-i18n="home.095">結算週期</orva-text></span></div>
             </article>
             <article class="asset-card reveal">
-              <div class="asset-card-top"><span class="asset-glyph glyph-storage" aria-hidden="true">⌂</span><span class="asset-index">RWA / 03</span></div>
-              <p class="asset-kicker">STORAGE CAPACITY</p><h3>储气库容使用权</h3>
-              <p>映射夏注冬采场景下的库容使用权益，不指向天然气实物所有权。</p>
-              <div class="asset-foot"><span>库容使用</span><span>到期核销</span></div>
+              <div class="asset-card-top"><span class="asset-glyph glyph-storage" aria-hidden="true">⌂</span><span class="asset-index"><orva-text data-i18n="home.096">RWA / 03</orva-text></span></div>
+              <p class="asset-kicker"><orva-text data-i18n="home.097">儲氣庫容</orva-text></p><h3><orva-text data-i18n="home.098">儲氣庫容使用權</orva-text></h3>
+              <p><orva-text data-i18n="home.099">映射夏注冬採場景下的庫容使用權益，不指向天然氣實物所有權。</orva-text></p>
+              <div class="asset-foot"><span><orva-text data-i18n="home.100">庫容使用</orva-text></span><span><orva-text data-i18n="home.101">到期核銷</orva-text></span></div>
             </article>
             <article class="asset-card reveal">
-              <div class="asset-card-top"><span class="asset-glyph glyph-trade" aria-hidden="true">↗</span><span class="asset-index">RWA / 04</span></div>
-              <p class="asset-kicker">TRADE CASH FLOW</p><h3>天然气贸易现金流权益</h3>
-              <p>基于购销合同与结算记录，映射贸易业务净收益份额。</p>
-              <div class="asset-foot"><span>购销合同</span><span>回款记录</span></div>
+              <div class="asset-card-top"><span class="asset-glyph glyph-trade" aria-hidden="true">↗</span><span class="asset-index"><orva-text data-i18n="home.102">RWA / 04</orva-text></span></div>
+              <p class="asset-kicker"><orva-text data-i18n="home.103">貿易現金流</orva-text></p><h3><orva-text data-i18n="home.104">天然氣貿易現金流權益</orva-text></h3>
+              <p><orva-text data-i18n="home.105">基於購銷合同與結算記錄，映射貿易業務淨收益份額。</orva-text></p>
+              <div class="asset-foot"><span><orva-text data-i18n="home.106">購銷合同</orva-text></span><span><orva-text data-i18n="home.107">回款記錄</orva-text></span></div>
             </article>
           </div>
-          <div class="rights-note reveal"><span class="rights-note-mark">!</span><p><b>权益边界</b>　RWA 凭证代表协议约定的经济权益，不代表天然气实物物权；铸造、流转与销毁须满足白皮书所列核验与审批条件。</p></div>
+          <div class="rights-note reveal"><span class="rights-note-mark">!</span><p><b><orva-text data-i18n="home.109">權益邊界</orva-text></b><orva-text data-i18n="home.108">　RWA 憑證代表協議約定的經濟權益，不代表天然氣實物物權；鑄造、流轉與銷燬須滿足白皮書所列核驗與審批條件。</orva-text></p></div>
         </div>
       </section>
 
       <section class="section economics-section" id="economics" aria-labelledby="economics-title">
         <div class="container">
           <div class="section-heading split-heading reveal">
-            <div><p class="eyebrow"><span class="eyebrow-mark"></span> ORVA TOKEN ECONOMICS</p><h2 id="economics-title">让长期参与，<br /><span class="text-accent">拥有更清晰的权重。</span></h2></div>
-            <div class="economics-lede"><p>ORVA 是协议原生的质押、奖励与治理代币。白皮书规划固定总量、不再增发，并以锁仓数量、期限和实际参与时间计算奖励与投票权重。</p><span class="pill-outline">FIXED SUPPLY / NO NEW MINTING</span></div>
+            <div><p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.110"> ORVA 代幣經濟</orva-text></p><h2 id="economics-title"><orva-text data-i18n="home.111">讓長期參與，</orva-text><br><span class="text-accent"><orva-text data-i18n="home.112">擁有更清晰的權重。</orva-text></span></h2></div>
+            <div class="economics-lede"><p><orva-text data-i18n="home.113">ORVA 是協議原生的質押、獎勵與治理代幣。白皮書規劃固定總量、不再增發，並以鎖倉數量、期限和實際參與時間計算獎勵與投票權重。</orva-text></p><span class="pill-outline"><orva-text data-i18n="home.114">固定總量 / 不再增發</orva-text></span></div>
           </div>
 
           <div class="economics-grid">
             <div class="allocation-card reveal">
-              <div class="card-heading"><div><p class="eyebrow">PLANNED ALLOCATION</p><h3>代币分配结构</h3></div><span class="plan-stamp">WHITEPAPER<br />V1.0</span></div>
-              <div class="allocation-bar" role="img" aria-label="代币分配：协议国库35%，实体项目数字化团队25%，产业生态参与方20%，战略技术与DeFi合作机构12%，开发者社区8%">
+              <div class="card-heading"><div><p class="eyebrow"><orva-text data-i18n="home.115">規劃分配</orva-text></p><h3><orva-text data-i18n="home.116">代幣分配結構</orva-text></h3></div><span class="plan-stamp"><orva-text data-i18n="home.117">白皮書</orva-text><br><orva-text data-i18n="home.118">V1.0</orva-text></span></div>
+              <div data-i18n-aria-label="home.119" class="allocation-bar" role="img" aria-label="代幣分配：協議國庫35%，實體項目數字化團隊25%，產業生態參與方20%，戰略技術與DeFi合作機構12%，開發者社區8%">
                 <span style="--share:35;--segment:#22b573"></span><span style="--share:25;--segment:#46c98d"></span><span style="--share:20;--segment:#78dca9"></span><span style="--share:12;--segment:#a9e9c8"></span><span style="--share:8;--segment:#d2f2df"></span>
               </div>
               <div class="allocation-list">
-                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#22b573"></i>协议国库</span><b>35%</b><small>4 年线性释放 · 12 个月锁仓</small></div>
-                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#46c98d"></i>实体项目数字化团队</span><b>25%</b><small>3 年线性释放 · 18 个月锁仓</small></div>
-                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#78dca9"></i>产业生态参与方</span><b>20%</b><small>随生态贡献逐步释放</small></div>
-                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#a9e9c8"></i>战略技术与 DeFi 合作机构</span><b>12%</b><small>2 年线性释放 · 12 个月锁仓</small></div>
-                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#d2f2df"></i>开发者社区</span><b>8%</b><small>分批释放</small></div>
+                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#22b573"></i><orva-text data-i18n="home.120">協議國庫</orva-text></span><b>35%</b><small><orva-text data-i18n="home.121">4 年線性釋放 · 12 個月鎖倉</orva-text></small></div>
+                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#46c98d"></i><orva-text data-i18n="home.122">實體項目數字化團隊</orva-text></span><b>25%</b><small><orva-text data-i18n="home.123">3 年線性釋放 · 18 個月鎖倉</orva-text></small></div>
+                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#78dca9"></i><orva-text data-i18n="home.124">產業生態參與方</orva-text></span><b>20%</b><small><orva-text data-i18n="home.125">隨生態貢獻逐步釋放</orva-text></small></div>
+                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#a9e9c8"></i><orva-text data-i18n="home.126">戰略技術與 DeFi 合作機構</orva-text></span><b>12%</b><small><orva-text data-i18n="home.127">2 年線性釋放 · 12 個月鎖倉</orva-text></small></div>
+                <div class="allocation-row"><span class="allocation-name"><i style="--dot:#d2f2df"></i><orva-text data-i18n="home.128">開發者社區</orva-text></span><b>8%</b><small><orva-text data-i18n="home.129">分批釋放</orva-text></small></div>
               </div>
-              <p class="allocation-note">比例、用途与解锁节奏为白皮书规划，最终以正式合约及公告为准。</p>
+              <p class="allocation-note"><orva-text data-i18n="home.130">比例、用途與解鎖節奏為白皮書規劃，最終以正式合約及公告為準。</orva-text></p>
             </div>
 
             <div class="staking-column reveal">
               <article class="staking-card">
-                <p class="eyebrow">WEIGHTED STAKING</p><h3>锁仓期限 × 持续参与</h3>
-                <p>用户选择锁仓周期；期限越长、实际参与越久，奖励与治理权重越高。白皮书举例 3 / 6 / 12 个月档位。</p>
-                <div class="formula-box"><span>VOTE &amp; REWARD WEIGHT</span><strong>amount <i>×</i> Boost<span>(lock term, active time)</span></strong></div>
-                <div class="staking-rules"><div><span class="rule-check">↗</span><p><b>到期解锁</b><br />按规则取回质押 ORVA，不设置到期惩罚。</p></div><div><span class="rule-check">↘</span><p><b>提前解锁</b><br />按机制扣除一定比例并转入协议国库。</p></div></div>
+                <p class="eyebrow"><orva-text data-i18n="home.131">加權質押</orva-text></p><h3><orva-text data-i18n="home.132">鎖倉期限 × 持續參與</orva-text></h3>
+                <p><orva-text data-i18n="home.133">用戶選擇鎖倉週期；期限越長、實際參與越久，獎勵與治理權重越高。白皮書舉例 3 / 6 / 12 個月檔位。</orva-text></p>
+                <div class="formula-box"><span><orva-text data-i18n="home.134">投票 </orva-text>&amp;<orva-text data-i18n="home.135"> 獎勵權重</orva-text></span><strong><orva-text data-i18n="home.136">amount </orva-text><i>×</i><orva-text data-i18n="home.137"> Boost</orva-text><span><orva-text data-i18n="home.138">(lock term, active time)</orva-text></span></strong></div>
+                <div class="staking-rules"><div><span class="rule-check">↗</span><p><b><orva-text data-i18n="home.140">到期解鎖</orva-text></b><br><orva-text data-i18n="home.139">按規則取回質押 ORVA，不設置到期懲罰。</orva-text></p></div><div><span class="rule-check">↘</span><p><b><orva-text data-i18n="home.142">提前解鎖</orva-text></b><br><orva-text data-i18n="home.141">按機制扣除一定比例並轉入協議國庫。</orva-text></p></div></div>
               </article>
               <div class="revenue-flow">
-                <div class="revenue-title"><span class="signal-pulse"></span><span>PROTOCOL REVENUE FLOW</span></div>
-                <div class="revenue-steps"><span>实体服务收入</span><i>→</i><span>协议国库</span><i>→</i><span>按权重分配</span></div>
-                <p>分配以实际进入国库且符合规则的协议收入为前提，不构成固定收益或回报承诺。</p>
+                <div class="revenue-title"><span class="signal-pulse"></span><span><orva-text data-i18n="home.143">協議收入流</orva-text></span></div>
+                <div class="revenue-steps"><span><orva-text data-i18n="home.144">實體服務收入</orva-text></span><i>→</i><span><orva-text data-i18n="home.145">協議國庫</orva-text></span><i>→</i><span><orva-text data-i18n="home.146">按權重分配</orva-text></span></div>
+                <p><orva-text data-i18n="home.147">分配以實際進入國庫且符合規則的協議收入為前提，不構成固定收益或回報承諾。</orva-text></p>
               </div>
             </div>
           </div>
@@ -220,90 +220,90 @@
       <section class="section architecture-section" id="architecture" aria-labelledby="architecture-title">
         <div class="container">
           <div class="section-heading split-heading reveal">
-            <div><p class="eyebrow"><span class="eyebrow-mark"></span> VERIFIABLE INFRASTRUCTURE</p><h2 id="architecture-title">从现场数据，<br /><span class="text-accent">到链上规则执行。</span></h2></div>
-            <p class="section-intro">协议按白皮书规划采用分层结构。原始经营资料保留在线下系统，链上保存必要的哈希索引与统计计量信息，降低敏感业务数据直接公开的风险。</p>
+            <div><p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.148"> 可驗證的基礎設施</orva-text></p><h2 id="architecture-title"><orva-text data-i18n="home.149">從現場數據，</orva-text><br><span class="text-accent"><orva-text data-i18n="home.150">到鏈上規則執行。</orva-text></span></h2></div>
+            <p class="section-intro"><orva-text data-i18n="home.151">協議按白皮書規劃採用分層結構。原始經營資料保留在線下系統，鏈上保存必要的哈希索引與統計計量信息，降低敏感業務數據直接公開的風險。</orva-text></p>
           </div>
 
-          <div class="architecture-map reveal" aria-label="ORVA Protocol 六层技术架构">
+          <div data-i18n-aria-label="home.152" class="architecture-map reveal" aria-label="ORVA Protocol 六層技術架構">
             <div class="architecture-rail" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            <article class="arch-layer"><span class="arch-number">01</span><div class="arch-name"><h3>实体感知层</h3><small>REAL-WORLD DATA</small></div><p>井口、集气站与储气库 IoT 计量；业务合同与回款台账。</p><span class="arch-tag">METERING</span></article>
-            <article class="arch-layer"><span class="arch-number">02</span><div class="arch-name"><h3>可信预言机 / PoR</h3><small>VERIFICATION</small></div><p>多源数据交叉校验；第三方审计报告哈希同步上链。</p><span class="arch-tag">ORACLE</span></article>
-            <article class="arch-layer"><span class="arch-number">03</span><div class="arch-name"><h3>区块链底层</h3><small>RECORD &amp; SETTLEMENT</small></div><p>链上记录权益凭证与关键指标；跨链映射须经合规审核。</p><span class="arch-tag">LEDGER</span></article>
-            <article class="arch-layer"><span class="arch-number">04</span><div class="arch-name"><h3>协议核心合约</h3><small>ORVA PROTOCOL</small></div><p>RWA 登记、质押锁仓、Vault、Gauge、收益分发、国库与 DAO。</p><span class="arch-tag">SMART CONTRACTS</span></article>
-            <article class="arch-layer"><span class="arch-number">05</span><div class="arch-name"><h3>API / SDK 接口层</h3><small>INTEGRATION</small></div><p>连接实体系统、审计查询与第三方应用开发。</p><span class="arch-tag">API / SDK</span></article>
-            <article class="arch-layer"><span class="arch-number">06</span><div class="arch-name"><h3>DApp 应用层</h3><small>USER EXPERIENCE</small></div><p>规划提供合作方、DeFi 参与者与审计监管使用入口。</p><span class="arch-tag">DAPP</span></article>
+            <article class="arch-layer"><span class="arch-number">01</span><div class="arch-name"><h3><orva-text data-i18n="home.153">實體感知層</orva-text></h3><small><orva-text data-i18n="home.154">實體數據</orva-text></small></div><p><orva-text data-i18n="home.155">井口、集氣站與儲氣庫 IoT 計量；業務合同與回款臺賬。</orva-text></p><span class="arch-tag"><orva-text data-i18n="home.156">計量</orva-text></span></article>
+            <article class="arch-layer"><span class="arch-number">02</span><div class="arch-name"><h3><orva-text data-i18n="home.157">可信預言機 / PoR</orva-text></h3><small><orva-text data-i18n="home.158">驗證</orva-text></small></div><p><orva-text data-i18n="home.159">多源數據交叉校驗；第三方審計報告哈希同步上鍊。</orva-text></p><span class="arch-tag"><orva-text data-i18n="home.160">預言機</orva-text></span></article>
+            <article class="arch-layer"><span class="arch-number">03</span><div class="arch-name"><h3><orva-text data-i18n="home.161">區塊鏈底層</orva-text></h3><small><orva-text data-i18n="home.162">記錄 </orva-text>&amp;<orva-text data-i18n="home.163"> 結算</orva-text></small></div><p><orva-text data-i18n="home.164">鏈上記錄權益憑證與關鍵指標；跨鏈映射須經合規審核。</orva-text></p><span class="arch-tag"><orva-text data-i18n="home.165">賬本</orva-text></span></article>
+            <article class="arch-layer"><span class="arch-number">04</span><div class="arch-name"><h3><orva-text data-i18n="home.166">協議核心合約</orva-text></h3><small><orva-text data-i18n="home.167">ORVA PROTOCOL</orva-text></small></div><p><orva-text data-i18n="home.168">RWA 登記、質押鎖倉、Vault、Gauge、收益分發、國庫與 DAO。</orva-text></p><span class="arch-tag"><orva-text data-i18n="home.169">智能合約</orva-text></span></article>
+            <article class="arch-layer"><span class="arch-number">05</span><div class="arch-name"><h3><orva-text data-i18n="home.170">API / SDK 接口層</orva-text></h3><small><orva-text data-i18n="home.171">系統集成</orva-text></small></div><p><orva-text data-i18n="home.172">連接實體系統、審計查詢與第三方應用開發。</orva-text></p><span class="arch-tag"><orva-text data-i18n="home.173">API / SDK</orva-text></span></article>
+            <article class="arch-layer"><span class="arch-number">06</span><div class="arch-name"><h3><orva-text data-i18n="home.174">DApp 應用層</orva-text></h3><small><orva-text data-i18n="home.175">用戶體驗</orva-text></small></div><p><orva-text data-i18n="home.176">規劃提供合作方、DeFi 參與者與審計監管使用入口。</orva-text></p><span class="arch-tag"><orva-text data-i18n="home.177">DAPP</orva-text></span></article>
           </div>
-          <div class="architecture-foot reveal"><span>ON-CHAIN</span><p>权益登记 · 权重计算 · 治理记录 · 审计哈希</p><span class="foot-divider"></span><span>OFF-CHAIN</span><p>生产控制 · 原始经营资料 · 天然气实物交割</p></div>
+          <div class="architecture-foot reveal"><span><orva-text data-i18n="home.178">鏈上</orva-text></span><p><orva-text data-i18n="home.179">權益登記 · 權重計算 · 治理記錄 · 審計哈希</orva-text></p><span class="foot-divider"></span><span><orva-text data-i18n="home.180">鏈下</orva-text></span><p><orva-text data-i18n="home.181">生產控制 · 原始經營資料 · 天然氣實物交割</orva-text></p></div>
         </div>
       </section>
 
       <section class="section governance-section" id="governance" aria-labelledby="governance-title">
         <div class="container">
           <div class="section-heading centered-heading reveal">
-            <p class="eyebrow"><span class="eyebrow-mark"></span> GOVERNANCE BY DESIGN</p>
-            <h2 id="governance-title">产业合规审查，<span class="text-accent">与链上治理协同。</span></h2>
-            <p>治理作用于协议与生态规则。实体工程、生产安全和天然气经营仍由线下实体主体依法负责。</p>
+            <p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.182"> 治理機制</orva-text></p>
+            <h2 id="governance-title"><orva-text data-i18n="home.183">產業合規審查，</orva-text><span class="text-accent"><orva-text data-i18n="home.184">與鏈上治理協同。</orva-text></span></h2>
+            <p><orva-text data-i18n="home.185">治理作用於協議與生態規則。實體工程、生產安全和天然氣經營仍由線下實體主體依法負責。</orva-text></p>
           </div>
           <div class="governance-grid reveal">
             <article class="governance-card committee-card">
-              <div class="governance-top"><span class="governance-symbol" aria-hidden="true">◈</span><span>OFF-CHAIN / REVIEW</span></div>
-              <h3>产业委员会</h3><p>把好资产真实性与合规前置关。</p>
-              <ul><li>审核 RWA 发行申请与线下合同一致性</li><li>审查 DAO 提案的产业安全与合规边界</li><li>遴选预言机节点及第三方 PoR 审计机构</li><li>对国库大额支出进行二次确认</li></ul>
+              <div class="governance-top"><span class="governance-symbol" aria-hidden="true">◈</span><span><orva-text data-i18n="home.186">鏈下 / 審查</orva-text></span></div>
+              <h3><orva-text data-i18n="home.187">產業委員會</orva-text></h3><p><orva-text data-i18n="home.188">把好資產真實性與合規前置關。</orva-text></p>
+              <ul><li><orva-text data-i18n="home.189">審核 RWA 發行申請與線下合同一致性</orva-text></li><li><orva-text data-i18n="home.190">審查 DAO 提案的產業安全與合規邊界</orva-text></li><li><orva-text data-i18n="home.191">遴選預言機節點及第三方 PoR 審計機構</orva-text></li><li><orva-text data-i18n="home.192">對國庫大額支出進行二次確認</orva-text></li></ul>
             </article>
-            <div class="governance-bridge" aria-hidden="true"><span>REVIEW</span><i>↔</i><span>VOTE</span></div>
+            <div class="governance-bridge" aria-hidden="true"><span><orva-text data-i18n="home.193">審查</orva-text></span><i>↔</i><span><orva-text data-i18n="home.194">投票</orva-text></span></div>
             <article class="governance-card dao-card">
-              <div class="governance-top"><span class="governance-symbol" aria-hidden="true">⌘</span><span>ON-CHAIN / PARTICIPATION</span></div>
-              <h3>ORVA-DAO</h3><p>让长期质押参与者表达协议治理意见。</p>
-              <ul><li>调整 DeFi 合约参数与生态激励规则</li><li>配置 Gauge 激励权重及预言机节点</li><li>审议国库预算和协议层迭代提案</li><li>投票权重读取质押合约的加权结果</li></ul>
+              <div class="governance-top"><span class="governance-symbol" aria-hidden="true">⌘</span><span><orva-text data-i18n="home.195">鏈上 / 參與</orva-text></span></div>
+              <h3><orva-text data-i18n="home.196">ORVA-DAO</orva-text></h3><p><orva-text data-i18n="home.197">讓長期質押參與者表達協議治理意見。</orva-text></p>
+              <ul><li><orva-text data-i18n="home.198">調整 DeFi 合約參數與生態激勵規則</orva-text></li><li><orva-text data-i18n="home.199">配置 Gauge 激勵權重及預言機節點</orva-text></li><li><orva-text data-i18n="home.200">審議國庫預算和協議層迭代提案</orva-text></li><li><orva-text data-i18n="home.201">投票權重讀取質押合約的加權結果</orva-text></li></ul>
             </article>
           </div>
-          <div class="governance-boundary reveal"><span class="boundary-icon">≠</span><p><b>治理边界</b>　DAO 不控制线下生产设备、储气库运行、天然气定价或实体商业合同；涉及线下经营的意见不具备实体约束力。</p></div>
+          <div class="governance-boundary reveal"><span class="boundary-icon">≠</span><p><b><orva-text data-i18n="home.203">治理邊界</orva-text></b><orva-text data-i18n="home.202">　DAO 不控制線下生產設備、儲氣庫運行、天然氣定價或實體商業合同；涉及線下經營的意見不具備實體約束力。</orva-text></p></div>
         </div>
       </section>
 
       <section class="section roadmap-section" id="roadmap" aria-labelledby="roadmap-title">
         <div class="container">
           <div class="section-heading split-heading reveal">
-            <div><p class="eyebrow"><span class="eyebrow-mark"></span> CONDITION-DRIVEN ROADMAP</p><h2 id="roadmap-title">按条件推进，<br /><span class="text-accent">让每一步都有前置依据。</span></h2></div>
-            <p class="section-intro">路线图对齐白皮书的实体项目建设周期。阶段时长是规划安排，实际推进取决于工程、资质、技术、安全与合规条件。</p>
+            <div><p class="eyebrow"><span class="eyebrow-mark"></span><orva-text data-i18n="home.204"> 條件驅動的路線圖</orva-text></p><h2 id="roadmap-title"><orva-text data-i18n="home.205">按條件推進，</orva-text><br><span class="text-accent"><orva-text data-i18n="home.206">讓每一步都有前置依據。</orva-text></span></h2></div>
+            <p class="section-intro"><orva-text data-i18n="home.207">路線圖對齊白皮書的實體項目建設週期。階段時長是規劃安排，實際推進取決於工程、資質、技術、安全與合規條件。</orva-text></p>
           </div>
           <div class="roadmap-track reveal">
-            <article class="roadmap-item"><div class="roadmap-marker"><span>01</span><i></i></div><p class="roadmap-period">0 — 12 MONTHS</p><h3>实体一期建设</h3><p>推进集气站主体建设与相关资质办理，为后续业务数据接入做好准备。</p><span class="roadmap-status">规划阶段</span></article>
-            <article class="roadmap-item"><div class="roadmap-marker"><span>02</span><i></i></div><p class="roadmap-period">13 — 24 MONTHS</p><h3>实体二期与联调</h3><p>规划储气库改造、集输管道建设与系统联动调试，逐步验证业务闭环。</p><span class="roadmap-status">条件成熟后推进</span></article>
-            <article class="roadmap-item"><div class="roadmap-marker"><span>03</span><i></i></div><p class="roadmap-period">25 — 48 MONTHS</p><h3>协议生态扩展</h3><p>在实体运营、数据验证、合规与治理条件具备后，评估扩展 RWA 与 DeFi 模块。</p><span class="roadmap-status">依条件评估</span></article>
+            <article class="roadmap-item"><div class="roadmap-marker"><span>01</span><i></i></div><p class="roadmap-period"><orva-text data-i18n="home.208">0 — 12 個月</orva-text></p><h3><orva-text data-i18n="home.209">實體一期建設</orva-text></h3><p><orva-text data-i18n="home.210">推進集氣站主體建設與相關資質辦理，為後續業務數據接入做好準備。</orva-text></p><span class="roadmap-status"><orva-text data-i18n="home.211">規劃階段</orva-text></span></article>
+            <article class="roadmap-item"><div class="roadmap-marker"><span>02</span><i></i></div><p class="roadmap-period"><orva-text data-i18n="home.212">13 — 24 個月</orva-text></p><h3><orva-text data-i18n="home.213">實體二期與聯調</orva-text></h3><p><orva-text data-i18n="home.214">規劃儲氣庫改造、集輸管道建設與系統聯動調試，逐步驗證業務閉環。</orva-text></p><span class="roadmap-status"><orva-text data-i18n="home.215">條件成熟後推進</orva-text></span></article>
+            <article class="roadmap-item"><div class="roadmap-marker"><span>03</span><i></i></div><p class="roadmap-period"><orva-text data-i18n="home.216">25 — 48 個月</orva-text></p><h3><orva-text data-i18n="home.217">協議生態擴展</orva-text></h3><p><orva-text data-i18n="home.218">在實體運營、數據驗證、合規與治理條件具備後，評估擴展 RWA 與 DeFi 模塊。</orva-text></p><span class="roadmap-status"><orva-text data-i18n="home.219">依條件評估</orva-text></span></article>
           </div>
         </div>
       </section>
 
       <section class="disclosure-section" aria-labelledby="disclosure-title">
         <div class="container disclosure-shell reveal">
-          <div class="disclosure-heading"><span class="disclosure-icon" aria-hidden="true">i</span><div><p class="eyebrow">RISK &amp; COMPLIANCE</p><h2 id="disclosure-title">清晰的边界，先于参与。</h2></div></div>
+          <div class="disclosure-heading"><span class="disclosure-icon" aria-hidden="true"><orva-text data-i18n="home.220">i</orva-text></span><div><p class="eyebrow"><orva-text data-i18n="home.221">風險 </orva-text>&amp;<orva-text data-i18n="home.222"> 合規</orva-text></p><h2 id="disclosure-title"><orva-text data-i18n="home.223">清晰的邊界，先於參與。</orva-text></h2></div></div>
           <div class="disclosure-content">
-            <p>本网站内容基于 ORVA Protocol 白皮书 V1.0 的规划描述，不表示相关资产、服务收入、链上合约、代币发行或第三方审计已经完成。数字资产、工程建设、能源运营、数据预言机与监管政策均存在风险；协议机制不构成固定收益承诺。</p>
-            <p>白皮书将 ORVA-DeFi 定位于境外链上生态，并明确境内不开展代币发行、交易与金融化活动。RWA 凭证代表经济权益，不代表天然气实物物权；具体安排以正式文件及适用法律法规为准。</p>
+            <p><orva-text data-i18n="home.224">本網站內容基於 ORVA Protocol 白皮書 V1.0 的規劃描述，不表示相關資產、服務收入、鏈上合約、代幣發行或第三方審計已經完成。數字資產、工程建設、能源運營、數據預言機與監管政策均存在風險；協議機制不構成固定收益承諾。</orva-text></p>
+            <p><orva-text data-i18n="home.225">白皮書將 ORVA-DeFi 定位於境外鏈上生態，並明確境內不開展代幣發行、交易與金融化活動。RWA 憑證代表經濟權益，不代表天然氣實物物權；具體安排以正式文件及適用法律法規為準。</orva-text></p>
           </div>
-          <a class="disclosure-link" href="assets/orva-protocol-whitepaper-v1.pdf" download="ORVA-Protocol-Whitepaper-v1.pdf">查看完整白皮书 <span aria-hidden="true">↗</span></a>
+          <a class="disclosure-link" href="/whitepaper/"><orva-text data-i18n="home.226">查看完整白皮書 </orva-text><span aria-hidden="true">↗</span></a>
         </div>
       </section>
 
       <section class="closing-section" aria-labelledby="closing-title">
         <div class="container closing-shell reveal">
-          <div class="closing-mark"><img src="assets/orva-logo.png" alt="" width="90" height="90" /></div>
-          <p class="eyebrow">ORVA PROTOCOL / REAL ENERGY, VERIFIABLE RIGHTS</p>
-          <h2 id="closing-title">从真实业务出发，<br /><span>构建可验证的数字权益。</span></h2>
-          <p>了解 ORVA Protocol 的产业基础、资产映射和治理机制。</p>
-          <a class="button button-primary" href="assets/orva-protocol-whitepaper-v1.pdf" download="ORVA-Protocol-Whitepaper-v1.pdf">下载白皮书 <span aria-hidden="true">↗</span></a>
+          <div class="closing-mark"><img src="/assets/orva-logo.png" alt="" width="90" height="90"></div>
+          <p class="eyebrow"><orva-text data-i18n="home.227">ORVA PROTOCOL / 真實能源，可驗證的權益</orva-text></p>
+          <h2 id="closing-title"><orva-text data-i18n="home.228">從真實業務出發，</orva-text><br><span><orva-text data-i18n="home.229">構建可驗證的數字權益。</orva-text></span></h2>
+          <p><orva-text data-i18n="home.230">瞭解 ORVA Protocol 的產業基礎、資產映射和治理機制。</orva-text></p>
+          <a class="button button-primary" href="/whitepaper/"><orva-text data-i18n="home.231">閱讀白皮書 </orva-text><span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-main">
-        <a class="brand footer-brand" href="#top" aria-label="返回 ORVA Protocol 首页"><img src="assets/orva-logo.png" alt="" width="38" height="38" /><span class="brand-wordmark">ORVA<span>PROTOCOL</span></span></a>
-        <p>由真实能源经营现金流驱动的 RWA-DeFi 协议规划。</p>
-        <div class="footer-links"><a href="#industry">产业底座</a><a href="#assets">RWA 权益</a><a href="#economics">代币机制</a><a href="assets/orva-protocol-whitepaper-v1.pdf" download="ORVA-Protocol-Whitepaper-v1.pdf">白皮书 ↗</a></div>
+        <a data-i18n-aria-label="home.232" class="brand footer-brand" href="#top" aria-label="返回 ORVA Protocol 首頁"><img src="/assets/orva-logo.png" alt="" width="38" height="38"><span class="brand-wordmark">ORVA<span>PROTOCOL</span></span></a>
+        <p><orva-text data-i18n="home.233">由真實能源經營現金流驅動的 RWA-DeFi 協議規劃。</orva-text></p>
+        <div class="footer-links"><a href="#industry"><orva-text data-i18n="home.234">產業底座</orva-text></a><a href="#assets"><orva-text data-i18n="home.235">RWA 權益</orva-text></a><a href="#economics"><orva-text data-i18n="home.236">代幣機制</orva-text></a><a href="/whitepaper/"><orva-text data-i18n="home.237">白皮書 ↗</orva-text></a></div>
       </div>
-      <div class="container footer-bottom"><span>© <span id="year">2026</span> ORVA Protocol</span><span>REAL-WORLD ENERGY / ON-CHAIN RIGHTS</span><a href="#top">回到顶部 ↑</a></div>
+      <div class="container footer-bottom"><span>© <span id="year">2026</span><orva-text data-i18n="home.238"> ORVA Protocol</orva-text></span><span><orva-text data-i18n="home.239">真實能源 / 鏈上權益</orva-text></span><a href="#top"><orva-text data-i18n="home.240">回到頂部 ↑</orva-text></a></div>
     </footer>
   </body>
 </html>

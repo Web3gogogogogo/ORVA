@@ -1,0 +1,79 @@
+{
+  "zh-Hant": {
+    "metric.investment": "約 10 億元", "metric.processing": "100 萬 m³ / 日", "metric.storage": "3 億 m³", "metric.pipeline": "50 km"
+  },
+  "en": {
+    "metric.investment": "≈ CNY 1B", "metric.processing": "1M m³ / day", "metric.storage": "300M m³", "metric.pipeline": "50 km",
+    "ui.language": "Language", "ui.openMenu": "Open navigation menu", "ui.closeMenu": "Close navigation menu", "ui.whitepaper": "Whitepaper", "ui.home": "Home", "ui.backHome": "Back to home", "ui.top": "Back to top", "ui.toc": "Contents", "ui.progress": "Reading progress", "ui.download": "Download original PDF (Simplified Chinese)", "ui.title": "ORVA Protocol Whitepaper", "ui.subtitle": "An RWA-DeFi protocol powered by real energy operating cash flow", "ui.version": "Version 1.0", "ui.source": "Full web edition · Read alongside the original PDF", "ui.edition": "This page presents the full text and translations of ORVA Whitepaper V1.0. Project data, plans and statements follow the original document; please read alongside the original PDF.", "ui.tableScroll": "Scroll horizontally to view the table", "ui.readPaper": "Read the whitepaper", "ui.original": "Original PDF", "ui.loadError": "This language could not be loaded. Please try again.", "ui.retry": "Retry", "ui.section": "Chapter", "ui.figure": "Diagram", "ui.paperNav": "Whitepaper navigation", "ui.closeToc": "Collapse contents",
+    "home.001": "ORVA Protocol connects real natural gas production, transmission, storage and trading with verifiable on-chain rights. Explore its RWA mapping, architecture, token mechanisms and governance plans.",
+    "home.002": "ORVA Protocol — Real Energy, Verifiable Rights", "home.004": "ORVA Protocol — Real Energy, Verifiable Rights",
+    "home.003": "An RWA-DeFi protocol plan grounded in real energy operating cash flow.",
+    "home.009": "Industry", "home.011": "Tokenomics", "home.012": "Architecture", "home.013": "Governance", "home.014": "Whitepaper",
+    "home.015": "REAL ENERGY / VERIFIABLE ON-CHAIN RIGHTS", "home.016": "Real energy operations,", "home.017": "connected to ", "home.018": "verifiable on-chain rights",
+    "home.019": "Built on natural gas production, transmission, storage and trading, ORVA Protocol maps verified operating data and contractual cash flow to standardized RWA rights. ORVA connects staking incentives with protocol governance.",
+    "home.021": "Read the whitepaper", "home.022": "Protocol keywords", "home.027": "REAL ASSETS", "home.028": "VERIFIED FLOWS", "home.030": "ENERGY OPERATIONS", "home.031": "ON-CHAIN", "home.035": "SCROLL TO EXPLORE", "home.036": "Scroll down", "home.037": "INDUSTRIAL FOUNDATION",
+    "home.038": "Real energy assets:", "home.039": "the foundation of protocol value.",
+    "home.040": "The whitepaper proposes the integrated natural gas project in Kaijiang County, Sichuan as its industrial foundation, covering gas supply, gathering and transmission, seasonal storage and trade settlement. Off-chain operations produce contracts, metering and payment records; the protocol registers rights and coordinates rules on-chain.",
+    "home.043": "WHITEPAPER PLAN / V1.0", "home.045": "× CNY 100 million", "home.047": "× 10,000 m³", "home.050": "× 100 million m³",
+    "home.046": "Planned total investment", "home.049": "Daily gas processing capacity", "home.051": "Planned storage capacity", "home.053": "Planned gathering pipeline length",
+    "home.054": "These are planned parameters stated in the whitepaper. They do not indicate completed construction, commissioned facilities or achieved operating results.",
+    "home.056": "One energy value chain. Four operating stages.", "home.057": "A recordable, verifiable business chain from dispersed gas sources to industrial users.",
+    "home.059": "01 / UPSTREAM", "home.060": "Gas gathering", "home.061": "Integrate nearby gas sources and record production and custody-transfer measurements.",
+    "home.062": "02 / TRANSMISSION", "home.063": "Processing & transmission", "home.064": "Purify and compress gas, then transport it through the pipeline network.",
+    "home.065": "03 / STORAGE", "home.066": "Seasonal gas storage", "home.067": "Schedule injection, withdrawal and storage capacity use around seasonal demand.",
+    "home.068": "04 / TRADE", "home.069": "Trade settlement", "home.070": "Verify operations against contracts, metering reports and payment records.",
+    "home.074": "Commercial contracts", "home.076": "Payment records", "home.078": "ON-CHAIN", "home.079": "REAL-WORLD ASSET LAYER",
+    "home.080": "Four energy rights, ", "home.081": "mapped to real operations.",
+    "home.082": "Every RWA issuance requires an off-chain commercial contract, oracle-verified metering data and confirmation by the Industry Committee.",
+    "home.083": "ERC-1155 multi-asset standard · Whitepaper plan", "home.085": "GAS SUPPLY", "home.086": "Gas production revenue rights", "home.087": "Represent a share of net revenue from nearby wells’ gas sales, recorded for the corresponding revenue period.",
+    "home.091": "GATHERING SERVICES", "home.092": "Infrastructure service revenue rights", "home.093": "Represent settlement income from gas gathering, processing and transmission services.", "home.094": "Infrastructure services", "home.095": "Settlement period",
+    "home.098": "Storage capacity usage rights", "home.099": "Represent capacity usage for summer injection and winter withdrawal, without conveying ownership of physical natural gas.", "home.101": "Expiry and retirement",
+    "home.104": "Natural gas trade cash-flow rights", "home.105": "Represent a share of net trading income supported by purchase and sales contracts and settlement records.",
+    "home.108": "RWA certificates represent economic rights defined by the protocol, not ownership of physical natural gas. Minting, transfer and burning require the verification and approval conditions set out in the whitepaper.", "home.109": "Rights boundary",
+    "home.110": "ORVA TOKENOMICS", "home.111": "Long-term participation,", "home.112": "with clearly defined weight.",
+    "home.113": "ORVA is the protocol’s native staking, reward and governance token. The whitepaper specifies a fixed supply with no further minting. Reward and voting weights depend on the locked amount, lock term and actual participation time.",
+    "home.114": "FIXED SUPPLY / NO FURTHER MINTING", "home.115": "PLANNED ALLOCATION", "home.116": "Token allocation", "home.117": "WHITEPAPER", "home.120": "Protocol treasury", "home.122": "Project digitalization team", "home.124": "Industry ecosystem participants", "home.125": "Released with ecosystem contributions", "home.126": "Technology & DeFi partners", "home.129": "Released in tranches",
+    "home.130": "Allocation, use and vesting schedules reflect whitepaper plans and remain subject to formal contracts and announcements.", "home.131": "WEIGHTED STAKING", "home.132": "Lock term × sustained participation",
+    "home.133": "Users choose a lock term. Longer commitments and actual participation increase reward and governance weights. The whitepaper illustrates 3, 6 and 12-month options.",
+    "home.139": "Recover staked ORVA under the rules, with no penalty at maturity.", "home.140": "Unlock at maturity", "home.141": "A specified proportion is deducted and transferred to the protocol treasury.", "home.142": "Early unlocking", "home.144": "Real-world service income", "home.145": "Protocol treasury", "home.146": "Weighted distribution",
+    "home.147": "Distribution depends on eligible protocol income actually received by the treasury. It is not a promise of fixed income or returns.",
+    "home.149": "From field data", "home.150": "to on-chain rules.", "home.153": "Real-world sensing", "home.154": "REAL-WORLD DATA", "home.156": "METERING", "home.158": "VERIFICATION", "home.161": "Blockchain infrastructure", "home.164": "Record rights certificates and key metrics on-chain; cross-chain mapping requires compliance review.", "home.166": "Core protocol contracts", "home.178": "ON-CHAIN", "home.179": "Rights registration · Weight calculation · Governance records · Audit hashes",
+    "home.183": "Industry compliance, ", "home.184": "coordinated with on-chain governance.", "home.185": "Governance applies to protocol and ecosystem rules. Physical construction, operational safety and natural gas operations remain the legal responsibility of off-chain businesses.", "home.186": "OFF-CHAIN / REVIEW", "home.187": "Industry Committee", "home.188": "Verify asset authenticity and compliance before participation.", "home.193": "REVIEW", "home.194": "VOTE", "home.195": "ON-CHAIN / PARTICIPATION",
+    "home.202": "The DAO does not control off-chain production equipment, gas storage operations, gas pricing or commercial contracts. Opinions on off-chain operations are advisory and do not bind the operating businesses.",
+    "home.205": "Advance when ready,", "home.206": "with prerequisites for every step.", "home.209": "Phase one construction", "home.211": "Planned", "home.213": "Phase two & commissioning", "home.215": "Subject to readiness", "home.217": "Protocol ecosystem expansion", "home.219": "Conditional assessment",
+    "home.223": "Understand the boundaries before participating.", "home.226": "Read the full whitepaper", "home.227": "ORVA PROTOCOL / REAL ENERGY, VERIFIABLE RIGHTS", "home.228": "Start with real operations.", "home.229": "Build verifiable digital rights.", "home.231": "Read the whitepaper", "home.234": "Industry", "home.236": "Tokenomics", "home.237": "Whitepaper ↗", "home.239": "REAL ENERGY / ON-CHAIN RIGHTS",
+    "paper.155": "Real-world operations (using the estimates in the appendix): the gas gathering station charges CNY 0.1 per cubic meter for gathering and transmission, generating annual service-fee income of CNY 30 million. Gas trading profit is estimated at CNY 0.5 per cubic meter, or approximately CNY 150 million annually. Gas storage operating profit is estimated at CNY 1 per cubic meter, or approximately CNY 300 million annually. Annual processing, trading and storage throughput is 300 million cubic meters."
+  },
+  "ko": {
+    "metric.investment": "약 10억 위안", "metric.processing": "100만 m³ / 일", "metric.storage": "3억 m³", "metric.pipeline": "50 km",
+    "ui.title": "ORVA Protocol 백서", "ui.home": "홈", "ui.whitepaper": "백서", "ui.language": "언어", "ui.toc": "목차", "ui.progress": "읽기 진행률", "ui.download": "원본 PDF 다운로드 (중국어 간체)",
+    "home.016": "실물 에너지 사업을", "home.017": "연결하는 ", "home.018": "검증 가능한 온체인 권리",
+    "home.002": "ORVA Protocol — 실물 에너지, 검증 가능한 권리", "home.004": "ORVA Protocol — 실물 에너지, 검증 가능한 권리", "home.015": "실물 에너지 / 검증 가능한 온체인 권리",
+    "home.038": "실물 에너지는", "home.039": "프로토콜 가치의 출발점입니다.", "home.080": "네 가지 에너지 권리로 ", "home.081": "실물 사업을 연결합니다.", "home.111": "장기 참여에", "home.112": "명확한 가중치를 부여합니다.", "home.149": "현장 데이터에서", "home.150": "온체인 규칙 실행까지.", "home.183": "산업 규제 준수 검토와 ", "home.184": "온체인 거버넌스의 협력.", "home.205": "조건이 충족될 때 추진하여", "home.206": "모든 단계의 근거를 확보합니다.", "home.228": "실제 사업에서 출발하여", "home.229": "검증 가능한 디지털 권리를 구축합니다.",
+    "home.045": "× 1억 위안", "home.047": "만 m³", "home.050": "억 m³", "home.104": "천연가스 거래 현금흐름 권리", "home.109": "권리의 범위", "home.186": "오프체인 / 검토"
+  },
+  "ja": {
+    "metric.investment": "約10億元", "metric.processing": "100万 m³ / 日", "metric.storage": "3億 m³", "metric.pipeline": "50 km",
+    "ui.title": "ORVA Protocol ホワイトペーパー", "ui.home": "ホーム", "ui.whitepaper": "ホワイトペーパー", "ui.language": "言語", "ui.toc": "目次", "ui.progress": "読了率", "ui.download": "原本PDFをダウンロード（簡体字中国語）",
+    "home.016": "実物エネルギー事業を", "home.017": "つなぐ、", "home.018": "検証可能なオンチェーンの権利",
+    "home.002": "ORVA Protocol — 実物エネルギー、検証可能な権利", "home.004": "ORVA Protocol — 実物エネルギー、検証可能な権利", "home.015": "実物エネルギー / 検証可能なオンチェーンの権利",
+    "home.038": "実物エネルギーこそ、", "home.039": "プロトコルの価値の原点。", "home.080": "4種類のエネルギー権利が、", "home.081": "実際の事業を反映。", "home.111": "長期的な参加に、", "home.112": "明確な重みを。", "home.149": "現場のデータから、", "home.150": "オンチェーンのルール実行へ。", "home.183": "産業のコンプライアンス審査と、", "home.184": "オンチェーンガバナンスの連携。", "home.205": "条件が整うたびに、", "home.206": "確かな根拠を持って次の段階へ。", "home.228": "実際の事業から、", "home.229": "検証可能なデジタルの権利を構築。",
+    "home.045": "億元", "home.047": "万 m³", "home.050": "億 m³", "home.104": "天然ガス取引のキャッシュフロー権利", "home.109": "権利の範囲", "home.186": "オフチェーン / 審査"
+  },
+  "vi": {
+    "metric.investment": "≈ 1 tỷ CNY", "metric.processing": "1 triệu m³ / ngày", "metric.storage": "300 triệu m³", "metric.pipeline": "50 km",
+    "ui.title": "Sách trắng ORVA Protocol", "ui.home": "Trang chủ", "ui.whitepaper": "Sách trắng", "ui.language": "Ngôn ngữ", "ui.toc": "Mục lục", "ui.progress": "Tiến độ đọc", "ui.download": "Tải PDF gốc (tiếng Trung giản thể)",
+    "home.016": "Kết nối hoạt động năng lượng", "home.017": "với ", "home.018": "quyền lợi on-chain có thể xác minh",
+    "home.002": "ORVA Protocol — Năng lượng thực, quyền lợi có thể xác minh", "home.004": "ORVA Protocol — Năng lượng thực, quyền lợi có thể xác minh", "home.015": "NĂNG LƯỢNG THỰC / QUYỀN LỢI ON-CHAIN CÓ THỂ XÁC MINH",
+    "home.038": "Năng lượng thực là", "home.039": "nền tảng giá trị của giao thức.", "home.080": "Bốn loại quyền lợi năng lượng, ", "home.081": "phản ánh hoạt động thực tế.", "home.111": "Tham gia dài hạn,", "home.112": "với trọng số rõ ràng.", "home.149": "Từ dữ liệu hiện trường", "home.150": "đến thực thi quy tắc on-chain.", "home.183": "Thẩm định tuân thủ ngành, ", "home.184": "kết hợp quản trị on-chain.", "home.205": "Tiến bước khi đủ điều kiện,", "home.206": "với cơ sở cho từng giai đoạn.", "home.228": "Bắt đầu từ hoạt động thực tế,", "home.229": "xây dựng quyền lợi số có thể xác minh.",
+    "home.045": "× 100 triệu CNY", "home.047": "× 10.000 m³", "home.050": "× 100 triệu m³", "home.104": "Quyền lợi dòng tiền kinh doanh khí tự nhiên", "home.109": "Phạm vi quyền lợi", "home.186": "OFF-CHAIN / THẨM ĐỊNH"
+  },
+  "ur": {
+    "metric.investment": "تقریباً 1 ارب یوآن", "metric.processing": "10 لاکھ m³ / دن", "metric.storage": "30 کروڑ m³", "metric.pipeline": "50 km",
+    "ui.title": "ORVA Protocol وائٹ پیپر", "ui.home": "صفحۂ اول", "ui.whitepaper": "وائٹ پیپر", "ui.language": "زبان", "ui.toc": "فہرستِ ابواب", "ui.progress": "مطالعے کی پیش رفت", "ui.download": "اصل PDF ڈاؤن لوڈ کریں (آسان چینی)",
+    "home.016": "حقیقی توانائی کے کاروبار کو", "home.017": "جوڑیں ", "home.018": "قابلِ تصدیق آن چین حقوق سے",
+    "home.002": "ORVA Protocol — حقیقی توانائی، قابلِ تصدیق حقوق", "home.004": "ORVA Protocol — حقیقی توانائی، قابلِ تصدیق حقوق", "home.015": "حقیقی توانائی / قابلِ تصدیق آن چین حقوق",
+    "home.038": "حقیقی توانائی کے اثاثے،", "home.039": "پروٹوکول کی قدر کی بنیاد۔", "home.080": "توانائی کے چار طرح کے حقوق، ", "home.081": "حقیقی کاروبار کی نمائندگی۔", "home.111": "طویل مدتی شرکت،", "home.112": "واضح وزن کے ساتھ۔", "home.149": "میدانی ڈیٹا سے", "home.150": "آن چین قواعد کے نفاذ تک۔", "home.183": "صنعتی ضوابط کا جائزہ، ", "home.184": "آن چین نظم و نسق کے ساتھ۔", "home.205": "شرائط پوری ہونے پر پیش رفت،", "home.206": "ہر قدم کی واضح بنیاد کے ساتھ۔", "home.228": "حقیقی کاروبار سے آغاز،", "home.229": "قابلِ تصدیق ڈیجیٹل حقوق کی تعمیر۔",
+    "home.045": "× 10 کروڑ یوآن", "home.047": "× 10 ہزار m³", "home.050": "× 10 کروڑ m³", "home.104": "قدرتی گیس کی تجارت کے نقد بہاؤ کے حقوق", "home.109": "حقوق کی حدود", "home.186": "آف چین / جائزہ"
+  }
+}

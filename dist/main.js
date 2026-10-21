@@ -5,14 +5,14 @@
   if (menuButton && navigation) {
     const closeMenu = () => {
       menuButton.setAttribute("aria-expanded", "false");
-      menuButton.setAttribute("aria-label", "打开导航菜单");
+      menuButton.setAttribute("aria-label", window.ORVA.t("ui.openMenu"));
       navigation.classList.remove("is-open");
     };
 
     menuButton.addEventListener("click", () => {
       const willOpen = menuButton.getAttribute("aria-expanded") !== "true";
       menuButton.setAttribute("aria-expanded", String(willOpen));
-      menuButton.setAttribute("aria-label", willOpen ? "关闭导航菜单" : "打开导航菜单");
+      menuButton.setAttribute("aria-label", window.ORVA.t(willOpen ? "ui.closeMenu" : "ui.openMenu"));
       navigation.classList.toggle("is-open", willOpen);
     });
 
@@ -25,7 +25,10 @@
     });
 
     window.addEventListener("resize", () => {
-      if (window.innerWidth > 760) closeMenu();
+      if (window.innerWidth > 1100) closeMenu();
+    });
+    document.addEventListener("orva:languagechange", () => {
+      menuButton.setAttribute("aria-label", window.ORVA.t(menuButton.getAttribute("aria-expanded") === "true" ? "ui.closeMenu" : "ui.openMenu"));
     });
   }
 

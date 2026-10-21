@@ -1,0 +1,13 @@
+{
+  "name": "orva-protocol-site",
+  "private": true,
+  "scripts": {
+    "build:content": "node scripts/build-content.cjs",
+    "validate": "node scripts/validate.cjs"
+  },
+  "devDependencies": {
+    "linkedom": "0.18.14",
+    "opencc-js": "1.4.2",
+    "pdfjs-dist": "6.4.299"
+  }
+}

@@ -1,0 +1,1115 @@
+{
+  "pages": 20,
+  "blocks": [
+    {
+      "type": "h2",
+      "key": "paper.001",
+      "page": 4,
+      "id": "section-1",
+      "number": "1"
+    },
+    {
+      "type": "p",
+      "key": "paper.002",
+      "page": 4
+    },
+    {
+      "type": "p",
+      "key": "paper.003",
+      "page": 4
+    },
+    {
+      "type": "p",
+      "key": "paper.004",
+      "page": 4
+    },
+    {
+      "type": "p",
+      "key": "paper.005",
+      "page": 4
+    },
+    {
+      "type": "h2",
+      "key": "paper.006",
+      "page": 5,
+      "id": "section-2",
+      "number": "2"
+    },
+    {
+      "type": "h3",
+      "key": "paper.007",
+      "page": 5,
+      "id": "section-2-1",
+      "number": "2.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.008",
+      "page": 5
+    },
+    {
+      "type": "h3",
+      "key": "paper.009",
+      "page": 5,
+      "id": "section-2-2",
+      "number": "2.2"
+    },
+    {
+      "type": "li",
+      "key": "paper.010",
+      "page": 5
+    },
+    {
+      "type": "li",
+      "key": "paper.011",
+      "page": 5
+    },
+    {
+      "type": "li",
+      "key": "paper.012",
+      "page": 5
+    },
+    {
+      "type": "li",
+      "key": "paper.013",
+      "page": 5
+    },
+    {
+      "type": "li",
+      "key": "paper.014",
+      "page": 5
+    },
+    {
+      "type": "h3",
+      "key": "paper.015",
+      "page": 6,
+      "id": "section-2-3",
+      "number": "2.3"
+    },
+    {
+      "type": "p",
+      "key": "paper.016",
+      "page": 6
+    },
+    {
+      "type": "h3",
+      "key": "paper.017",
+      "page": 6,
+      "id": "section-2-4",
+      "number": "2.4"
+    },
+    {
+      "type": "li",
+      "key": "paper.018",
+      "page": 6
+    },
+    {
+      "type": "li",
+      "key": "paper.019",
+      "page": 6
+    },
+    {
+      "type": "li",
+      "key": "paper.020",
+      "page": 6
+    },
+    {
+      "type": "li",
+      "key": "paper.021",
+      "page": 6
+    },
+    {
+      "type": "li",
+      "key": "paper.022",
+      "page": 6
+    },
+    {
+      "type": "h2",
+      "key": "paper.023",
+      "page": 6,
+      "id": "section-3",
+      "number": "3"
+    },
+    {
+      "type": "h3",
+      "key": "paper.024",
+      "page": 6,
+      "id": "section-3-1",
+      "number": "3.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.025",
+      "page": 6
+    },
+    {
+      "type": "h3",
+      "key": "paper.026",
+      "page": 6,
+      "id": "section-3-2",
+      "number": "3.2"
+    },
+    {
+      "type": "p",
+      "key": "paper.027",
+      "page": 6
+    },
+    {
+      "type": "h3",
+      "key": "paper.028",
+      "page": 7,
+      "id": "section-3-3",
+      "number": "3.3"
+    },
+    {
+      "type": "li",
+      "key": "paper.029",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.030",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.031",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.032",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.033",
+      "page": 7
+    },
+    {
+      "type": "h2",
+      "key": "paper.034",
+      "page": 7,
+      "id": "section-4",
+      "number": "4"
+    },
+    {
+      "type": "p",
+      "key": "paper.035",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.036",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.037",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.038",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.039",
+      "page": 7
+    },
+    {
+      "type": "li",
+      "key": "paper.040",
+      "page": 8
+    },
+    {
+      "type": "h2",
+      "key": "paper.041",
+      "page": 8,
+      "id": "section-5",
+      "number": "5"
+    },
+    {
+      "type": "h3",
+      "key": "paper.042",
+      "page": 8,
+      "id": "section-5-1",
+      "number": "5.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.043",
+      "page": 8
+    },
+    {
+      "type": "h3",
+      "key": "paper.044",
+      "page": 8,
+      "id": "section-5-2",
+      "number": "5.2"
+    },
+    {
+      "type": "p",
+      "key": "paper.045",
+      "page": 8
+    },
+    {
+      "type": "h3",
+      "key": "paper.046",
+      "page": 8,
+      "id": "section-5-3",
+      "number": "5.3"
+    },
+    {
+      "type": "p",
+      "key": "paper.047",
+      "page": 8
+    },
+    {
+      "type": "p",
+      "key": "paper.048",
+      "page": 9
+    },
+    {
+      "type": "figure",
+      "name": "flow",
+      "page": 9
+    },
+    {
+      "type": "h2",
+      "key": "paper.049",
+      "page": 9,
+      "id": "section-6",
+      "number": "6"
+    },
+    {
+      "type": "p",
+      "key": "paper.050",
+      "page": 9
+    },
+    {
+      "type": "h3",
+      "key": "paper.051",
+      "page": 9,
+      "id": "section-6-1",
+      "number": "6.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.052",
+      "page": 9
+    },
+    {
+      "type": "h3",
+      "key": "paper.053",
+      "page": 10,
+      "id": "section-6-2",
+      "number": "6.2"
+    },
+    {
+      "type": "li",
+      "key": "paper.054",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.055",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.056",
+      "page": 10
+    },
+    {
+      "type": "h3",
+      "key": "paper.057",
+      "page": 10,
+      "id": "section-6-3",
+      "number": "6.3"
+    },
+    {
+      "type": "li",
+      "key": "paper.058",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.059",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.060",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.061",
+      "page": 10
+    },
+    {
+      "type": "h3",
+      "key": "paper.062",
+      "page": 10,
+      "id": "section-6-4",
+      "number": "6.4"
+    },
+    {
+      "type": "li",
+      "key": "paper.063",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.064",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.065",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.066",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.067",
+      "page": 10
+    },
+    {
+      "type": "li",
+      "key": "paper.068",
+      "page": 11
+    },
+    {
+      "type": "li",
+      "key": "paper.069",
+      "page": 11
+    },
+    {
+      "type": "h3",
+      "key": "paper.070",
+      "page": 11,
+      "id": "section-6-5",
+      "number": "6.5"
+    },
+    {
+      "type": "p",
+      "key": "paper.071",
+      "page": 11
+    },
+    {
+      "type": "h3",
+      "key": "paper.072",
+      "page": 11,
+      "id": "section-6-6",
+      "number": "6.6"
+    },
+    {
+      "type": "li",
+      "key": "paper.073",
+      "page": 11
+    },
+    {
+      "type": "li",
+      "key": "paper.074",
+      "page": 11
+    },
+    {
+      "type": "li",
+      "key": "paper.075",
+      "page": 11
+    },
+    {
+      "type": "li",
+      "key": "paper.076",
+      "page": 11
+    },
+    {
+      "type": "figure",
+      "name": "architecture",
+      "page": 12
+    },
+    {
+      "type": "h2",
+      "key": "paper.077",
+      "page": 12,
+      "id": "section-7",
+      "number": "7"
+    },
+    {
+      "type": "p",
+      "key": "paper.078",
+      "page": 12
+    },
+    {
+      "type": "table",
+      "name": "assets",
+      "page": 12
+    },
+    {
+      "type": "h3",
+      "key": "paper.079",
+      "page": 13,
+      "id": "section-7-1",
+      "number": "7.1"
+    },
+    {
+      "type": "li",
+      "key": "paper.080",
+      "page": 13
+    },
+    {
+      "type": "li",
+      "key": "paper.081",
+      "page": 13
+    },
+    {
+      "type": "li",
+      "key": "paper.082",
+      "page": 13
+    },
+    {
+      "type": "li",
+      "key": "paper.083",
+      "page": 13
+    },
+    {
+      "type": "h3",
+      "key": "paper.084",
+      "page": 13,
+      "id": "section-7-2",
+      "number": "7.2"
+    },
+    {
+      "type": "p",
+      "key": "paper.085",
+      "page": 13
+    },
+    {
+      "type": "h2",
+      "key": "paper.086",
+      "page": 13,
+      "id": "section-8",
+      "number": "8"
+    },
+    {
+      "type": "h3",
+      "key": "paper.087",
+      "page": 13,
+      "id": "section-8-1",
+      "number": "8.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.088",
+      "page": 13
+    },
+    {
+      "type": "h3",
+      "key": "paper.089",
+      "page": 13,
+      "id": "section-8-2",
+      "number": "8.2"
+    },
+    {
+      "type": "p",
+      "key": "paper.090",
+      "page": 13
+    },
+    {
+      "type": "table",
+      "name": "allocation",
+      "page": 13
+    },
+    {
+      "type": "h3",
+      "key": "paper.091",
+      "page": 14,
+      "id": "section-8-3",
+      "number": "8.3"
+    },
+    {
+      "type": "p",
+      "key": "paper.092",
+      "page": 14
+    },
+    {
+      "type": "formula",
+      "key": "paper.093",
+      "page": 14
+    },
+    {
+      "type": "li",
+      "key": "paper.094",
+      "page": 14
+    },
+    {
+      "type": "li",
+      "key": "paper.095",
+      "page": 14
+    },
+    {
+      "type": "li",
+      "key": "paper.096",
+      "page": 14
+    },
+    {
+      "type": "h3",
+      "key": "paper.097",
+      "page": 14,
+      "id": "section-8-4",
+      "number": "8.4"
+    },
+    {
+      "type": "li",
+      "key": "paper.098",
+      "page": 14
+    },
+    {
+      "type": "li",
+      "key": "paper.099",
+      "page": 14
+    },
+    {
+      "type": "li",
+      "key": "paper.100",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.101",
+      "page": 15
+    },
+    {
+      "type": "h3",
+      "key": "paper.102",
+      "page": 15,
+      "id": "section-8-5",
+      "number": "8.5"
+    },
+    {
+      "type": "li",
+      "key": "paper.103",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.104",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.105",
+      "page": 15
+    },
+    {
+      "type": "h2",
+      "key": "paper.106",
+      "page": 15,
+      "id": "section-9",
+      "number": "9"
+    },
+    {
+      "type": "p",
+      "key": "paper.107",
+      "page": 15
+    },
+    {
+      "type": "h3",
+      "key": "paper.108",
+      "page": 15,
+      "id": "section-9-1",
+      "number": "9.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.109",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.110",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.111",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.112",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.113",
+      "page": 15
+    },
+    {
+      "type": "h3",
+      "key": "paper.114",
+      "page": 15,
+      "id": "section-9-2",
+      "number": "9.2"
+    },
+    {
+      "type": "li",
+      "key": "paper.115",
+      "page": 15
+    },
+    {
+      "type": "li",
+      "key": "paper.116",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.117",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.118",
+      "page": 16
+    },
+    {
+      "type": "h2",
+      "key": "paper.119",
+      "page": 16,
+      "id": "section-10",
+      "number": "10"
+    },
+    {
+      "type": "h3",
+      "key": "paper.120",
+      "page": 16,
+      "id": "section-10-1",
+      "number": "10.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.121",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.122",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.123",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.124",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.125",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.126",
+      "page": 16
+    },
+    {
+      "type": "h3",
+      "key": "paper.127",
+      "page": 16,
+      "id": "section-10-2",
+      "number": "10.2"
+    },
+    {
+      "type": "p",
+      "key": "paper.128",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.129",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.130",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.131",
+      "page": 16
+    },
+    {
+      "type": "li",
+      "key": "paper.132",
+      "page": 17
+    },
+    {
+      "type": "li",
+      "key": "paper.133",
+      "page": 17
+    },
+    {
+      "type": "h3",
+      "key": "paper.134",
+      "page": 17,
+      "id": "section-10-3",
+      "number": "10.3"
+    },
+    {
+      "type": "li",
+      "key": "paper.135",
+      "page": 17
+    },
+    {
+      "type": "li",
+      "key": "paper.136",
+      "page": 17
+    },
+    {
+      "type": "li",
+      "key": "paper.137",
+      "page": 17
+    },
+    {
+      "type": "h2",
+      "key": "paper.138",
+      "page": 17,
+      "id": "section-11",
+      "number": "11"
+    },
+    {
+      "type": "table",
+      "name": "risks",
+      "page": 17
+    },
+    {
+      "type": "h2",
+      "key": "paper.139",
+      "page": 18,
+      "id": "section-12",
+      "number": "12"
+    },
+    {
+      "type": "li",
+      "key": "paper.140",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.141",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.142",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.143",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.144",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.145",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.146",
+      "page": 18
+    },
+    {
+      "type": "h2",
+      "key": "paper.147",
+      "page": 18,
+      "id": "section-13",
+      "number": "13"
+    },
+    {
+      "type": "li",
+      "key": "paper.148",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.149",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.150",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.151",
+      "page": 18
+    },
+    {
+      "type": "li",
+      "key": "paper.152",
+      "page": 18
+    },
+    {
+      "type": "h2",
+      "key": "paper.153",
+      "page": 19,
+      "id": "section-14",
+      "number": "14"
+    },
+    {
+      "type": "h3",
+      "key": "paper.154",
+      "page": 19,
+      "id": "section-14-1",
+      "number": "14.1"
+    },
+    {
+      "type": "p",
+      "key": "paper.155",
+      "page": 19
+    },
+    {
+      "type": "li",
+      "key": "paper.156",
+      "page": 19
+    },
+    {
+      "type": "li",
+      "key": "paper.157",
+      "page": 19
+    },
+    {
+      "type": "li",
+      "key": "paper.158",
+      "page": 19
+    },
+    {
+      "type": "h3",
+      "key": "paper.159",
+      "page": 19,
+      "id": "section-14-2",
+      "number": "14.2"
+    },
+    {
+      "type": "li",
+      "key": "paper.160",
+      "page": 19
+    },
+    {
+      "type": "li",
+      "key": "paper.161",
+      "page": 19
+    },
+    {
+      "type": "li",
+      "key": "paper.162",
+      "page": 19
+    },
+    {
+      "type": "h2",
+      "key": "paper.163",
+      "page": 19,
+      "id": "section-15",
+      "number": "15"
+    },
+    {
+      "type": "p",
+      "key": "paper.164",
+      "page": 19
+    },
+    {
+      "type": "p",
+      "key": "paper.165",
+      "page": 20
+    },
+    {
+      "type": "note",
+      "key": "paper.166",
+      "page": 20
+    }
+  ],
+  "tables": [
+    {
+      "id": "assets",
+      "caption": "table.assets.caption",
+      "headers": [
+        "table.assets.head.0",
+        "table.assets.head.1",
+        "table.assets.head.2",
+        "table.assets.head.3"
+      ],
+      "rows": [
+        [
+          "table.assets.0.0",
+          "table.assets.0.1",
+          "table.assets.0.2",
+          "table.assets.0.3"
+        ],
+        [
+          "table.assets.1.0",
+          "table.assets.1.1",
+          "table.assets.1.2",
+          "table.assets.1.3"
+        ],
+        [
+          "table.assets.2.0",
+          "table.assets.2.1",
+          "table.assets.2.2",
+          "table.assets.2.3"
+        ],
+        [
+          "table.assets.3.0",
+          "table.assets.3.1",
+          "table.assets.3.2",
+          "table.assets.3.3"
+        ]
+      ]
+    },
+    {
+      "id": "allocation",
+      "caption": "table.allocation.caption",
+      "headers": [
+        "table.allocation.head.0",
+        "table.allocation.head.1",
+        "table.allocation.head.2",
+        "table.allocation.head.3"
+      ],
+      "rows": [
+        [
+          "table.allocation.0.0",
+          "table.allocation.0.1",
+          "table.allocation.0.2",
+          "table.allocation.0.3"
+        ],
+        [
+          "table.allocation.1.0",
+          "table.allocation.1.1",
+          "table.allocation.1.2",
+          "table.allocation.1.3"
+        ],
+        [
+          "table.allocation.2.0",
+          "table.allocation.2.1",
+          "table.allocation.2.2",
+          "table.allocation.2.3"
+        ],
+        [
+          "table.allocation.3.0",
+          "table.allocation.3.1",
+          "table.allocation.3.2",
+          "table.allocation.3.3"
+        ],
+        [
+          "table.allocation.4.0",
+          "table.allocation.4.1",
+          "table.allocation.4.2",
+          "table.allocation.4.3"
+        ]
+      ]
+    },
+    {
+      "id": "risks",
+      "caption": "table.risks.caption",
+      "headers": [
+        "table.risks.head.0",
+        "table.risks.head.1",
+        "table.risks.head.2"
+      ],
+      "rows": [
+        [
+          "table.risks.0.0",
+          "table.risks.0.1",
+          "table.risks.0.2"
+        ],
+        [
+          "table.risks.1.0",
+          "table.risks.1.1",
+          "table.risks.1.2"
+        ],
+        [
+          "table.risks.2.0",
+          "table.risks.2.1",
+          "table.risks.2.2"
+        ],
+        [
+          "table.risks.3.0",
+          "table.risks.3.1",
+          "table.risks.3.2"
+        ],
+        [
+          "table.risks.4.0",
+          "table.risks.4.1",
+          "table.risks.4.2"
+        ],
+        [
+          "table.risks.5.0",
+          "table.risks.5.1",
+          "table.risks.5.2"
+        ]
+      ]
+    }
+  ],
+  "diagrams": {
+    "flow": {
+      "caption": "figure.flow.caption",
+      "labels": [
+        "figure.flow.0",
+        "figure.flow.1",
+        "figure.flow.2",
+        "figure.flow.3",
+        "figure.flow.4",
+        "figure.flow.5",
+        "figure.flow.6",
+        "figure.flow.7",
+        "figure.flow.8",
+        "figure.flow.9",
+        "figure.flow.10",
+        "figure.flow.11",
+        "figure.flow.12",
+        "figure.flow.13",
+        "figure.flow.14",
+        "figure.flow.15",
+        "figure.flow.16",
+        "figure.flow.17"
+      ]
+    },
+    "architecture": {
+      "caption": "figure.architecture.caption",
+      "labels": [
+        "figure.architecture.0",
+        "figure.architecture.1",
+        "figure.architecture.2",
+        "figure.architecture.3",
+        "figure.architecture.4",
+        "figure.architecture.5",
+        "figure.architecture.6",
+        "figure.architecture.7",
+        "figure.architecture.8",
+        "figure.architecture.9",
+        "figure.architecture.10",
+        "figure.architecture.11",
+        "figure.architecture.12",
+        "figure.architecture.13"
+      ]
+    }
+  }
+}
